@@ -1,0 +1,9 @@
+[submodule "luajit"]
+	path = luajit
+	url = http://luajit.org/git/luajit-2.0.git
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/elmindreda/glfw.git
+[submodule "libuv"]
+	path = libuv
+	url = https://github.com/joyent/libuv.git
