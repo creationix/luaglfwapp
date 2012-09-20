@@ -16,7 +16,7 @@ app: app.o luajit/src/libluajit.a glfw/src/libglfw3.a libuv/uv.a
 app.o: app.c
 	$(CC) -g -c app.c -Iglfw/include -Ilibuv/include -Iluajit/src
 
-luajit/src/luajit.a:
+luajit/src/libluajit.a:
 	$(MAKE) -C luajit
 
 libuv/uv.a:
